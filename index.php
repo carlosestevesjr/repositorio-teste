@@ -1,5 +1,5 @@
 <?php;
-echo "Novo testedasdasd asda dasdas dsad dasd wedwqdqw asdasdas ";
+echo "Deploy";
 phpinfo();
 
 
