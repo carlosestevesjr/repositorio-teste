@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
       with:
         repository: ''
         ref: ''
