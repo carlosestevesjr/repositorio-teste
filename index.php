@@ -1,5 +1,5 @@
 <?php;
-echo "testando vo agora";
+echo "andré seu viadinho";
 phpinfo();
 
 
