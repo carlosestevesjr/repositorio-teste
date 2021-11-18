@@ -13,10 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
-      uses: appletboy/ssh-action@master
       with:
         host: ${{ secrets.SSH_HOST }}
-        key: ${{ secrets.KEY }}
         username: ${{ secrets.SSH_USER }}
         password: ${{ secrets.SSH_PASS }}
         port: 22
