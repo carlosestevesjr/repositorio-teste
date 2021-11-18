@@ -13,20 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
-      uses: actions/checkout@v2
+      uses:  appleboy/ssh-action@master
       with:
-        repository: ''
-        ref: ''
-        token: ${{ github.token }}
-        ssh-key: ''
-        ssh-known-hosts: ''
-        ssh-strict: ''
-        persist-credentials: ''
-        path: ''
-        clean: ''
-        fetch-depth: ''
-        lfs: ''
-        submodules: ''
       
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USER }}
