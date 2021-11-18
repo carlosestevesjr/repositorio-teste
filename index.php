@@ -1,6 +1,6 @@
 <?php;
-echo "Deplo dasda dasdasdda y";
-phpinfo();
+echo "Deplo dasda dasdasdda y a weqweq weqweqe qweqweqweqwe qweqweqwe qw";
+
 
 
 ?>
